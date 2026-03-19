@@ -6,11 +6,34 @@ title: Me
 现任中国科学院软件所可信计算与信息保障实验室副研究员，密码与网络空间安全（黄埔）研究院技术总工程师，CCF网络与空间安全专委会与软件工程专委会执行委员，中国网络空间安全学会制度建设工作委员会委员。承担过包括国家自然科学基金、国家密码科学基金、国家信息安全“242”计划在内的多项信息安全领域的国家级科研项目，并参与了10余项国家重点研发计划、国家自然科学基金重点项目等重大课题的研究。在包括ICSE、RAID、《Computers & Security》、《软件学报》、《计算机学报》在内的国内外一流学术刊物上发表过40余篇学术论文，发现30余个CVE高危软件安全漏洞，参与过多项国内外行业及国家标准的编写。拥有专利2项，软件著作权4项。长期担任《Computers & Security》、《计算机学报》、《信息安全学报》等国内外著名学术期刊的审稿人，以及国家自然科学基金和国家重点研发计划专家库成员。
 
 # 研究方向/Research Interests
+
 - Information security, especially on security measurement and assessment of information systems, access control, and security policy configuration and analysis.
 - Program static analysis, on both source code and binary levels.
 - Emerging security issues in cyber-physical systems
 
 # 项目/Projects
+
+## 主持/Project Investigator
+
+1. **2025.1-2027.12：国家密码科学基金面上项目，融合人工智能技术的密码API误用检测与修复技术研究，2025NCSF02021，25万**
+2. 2023.11-2024.11：国家保密局，XXX网络XX行为智能分析体系与关键技术研究，516万
+3. 2021.11-2022.11：北京网络数据研究所，保密XXXX采购项目，277.50万
+4. 2018.01-2018.12：国家自然科学基金面上项目，基于智能模糊测试的深度漏洞挖掘技术研究，61772506，16万
+5. 2016.5-2017.5：国家242信息安全计划，基于源代码的深度安全测试和漏洞挖掘研究，2016A086，58.76万
+6. 2012.01-2014.12：国家自然科学基金青年科学基金项目，逻辑驱动的跨操作系统安全机制评价方法研究，61100227，21万
+
+## 参与/Co-PI
+
+1. **2025.8-2027.7：北京市科技计划项目量子信息产业培育专项，Z251100000425005，200万**
+2. 2021.01-2024.12：国家自然科学基金面上项目，统一智能内核模糊测试技术研究，62072448，57万
+3. 2019.10-2022.10：国家重点研发计划，XXXX技术研究及示范应用，269万
+4. 2017.7-2021.6：国家重点研发计划，软件与系统漏洞分析与可利用判定技术研究，2017YFB0802900，551万
+5. 2015.1-2018.12：国家自然科学基金面上项目，操作系统访问控制错误修复方法研究，61471344，82万
+6. 2011.1-2013.12：国家863计划重大项目子课题，面向云计算的统一安全控制机制，2011AA01A203，180万
+7. 2010.01-2014.12：国家自然科学基金面上项目，跨平台的操作系统安全机制形式化验证方法研究 ，60970028，29万
+8. 2007.1-2010.12：国家863计划，Windows Vista 内核安全分析及可控性技术研究，2007AA01Z465，78万
+9. 2007.1-2010.12：国家863计划，面向可信计算平台的操作系统安全机制研究，2007AA01Z414，42万
+10. 2006.1-2009.12：国家863计划，访问验证保护级安全操作系统设计及其测评关键技术和实现方法研究，2006AA01Z433，40万
 
 # 代表性论文/Selected Papers
 
@@ -22,46 +45,37 @@ title: Me
 6. 张阳 and 程亮, “一种基于指针逻辑的代码安全属性分析方法,” _计算机学报 (Chinese Journal of Computers)_, vol. 32, no. 6, pp. 1119–1125, June 2009. (CCF T1)
 7. 程亮 and 张阳, “基于UML和模型检测的安全模型验证方法,” _计算机学报 (Chinese Journal of Computers)_, vol. 32, no. 4, pp. 699–708, Apr. 2009. (CCF T1)
   
+# 专利与软著/Patents & Software
 
-
+1. 针对SEAndroid的攻击路径挖掘系统，2018SR881651 
+2. 基于文件格式的模糊测试软件V1.0，2020SR1612950 
+3. 基于程序状态的模糊测试工具V1.0，2020SR1612951 
+4. 基于函数重要度的模糊测试软件V1.0，2020SR1612953 
+5. 自动化软件安全缺陷检测系统加速模块V1.0，2020SR1812255
   
+# 发现的漏洞/Vulnerabilities
 
-
-
-  
-
-## CVEs
-
-  
-
-### Integer errors
-
-1. CVE-2013-3195, comctl32.dll, integer overflow
-
-2. CVE-2013-7353, libpng, integer overflow
-
-3. CVE-2017-9092, flif, integer overflow
-
-4. CVE-2017-8911, tnef, integer underflow
-
-  
-
-### Buffer errors
-
-4. CVE-2017-8872, libxml2, buffer over-read
-
-5. CVE-2017-9058, libytnef, heap-based buffer over-read
-
-6. CVE-2017-9146, libytnef, heap-based buffer overflow
-
-  
-
-### Pointer errors
-
-9. CVE-2017-9147, libtiff, null pointer dereference (invalid read)
-
-  
-
-### Misc
-
-3. CVE-2016-10371, libtiff, assertion failure
+1. CVE-2013-3195，comctl32.dll，integer overflow
+2. CVE-2013-7353，libpng.dll，integer overflow
+3. CVE-2016-10371，libtiff，assertion failure
+4. CVE-2017-8872，libxml2，buffer over-read
+5. CVE-2017-8911，tnef， integer underflow
+6. CVE-2017-9058，libytnef, heap-based buffer over-read
+7. CVE-2017-9092，flif，integer overflow
+8. CVE-2017-9146，libytnef, heap-based buffer overflow
+9. CVE-2017-9147，libtiff，null pointer dereference (invalid read)
+10. CVE-2019-19698, libwav, null pointer dereference (Invalid write)
+11. CVE-2020-13438, ffjpeg, segmentation fault (Invalid read)
+12. CVE-2020-13439, ffjpeg, segmentation fault (heap-buffer-overflow)
+13. CVE-2020-13440, ffjpeg, segmentation fault (invalid write)
+14. CVE-2020-24821, libelfin(2020.07.29), Invalid read  
+15. CVE-2020-24822, libelfin(2020.07.29), Invalid read  
+16. CVE-2020-24823, libelfin(2020.07.29), Invalid read  
+17. CVE-2020-24824, libelfin(2020.07.29), Buffer Overflow  
+18. CVE-2020-24825, libelfin(2020.07.29), Invalid write 
+19. CVE-2020-24826, libelfin(2020.07.29), Invalid read  
+20. CVE-2020-24827, libelfin(2020.07.29), Invalid read  
+21. CVE-2020-21722, oggvideotools 0.9.1, Buffer Overflow
+22. CVE-2020-21723, oggvideotools 0.9.1, Segmentation Fault
+23. CVE-2020-21724, oggvideotools 0.9.1, Buffer Overflow
+24. CNNVD-2023-84723975, ipv6_flowlabel_opt (kernel-5.19), Memeory leak
